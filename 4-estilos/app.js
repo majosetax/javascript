@@ -26,8 +26,6 @@ contentArea.innerHTML = "<p>Este es un nuevo parrafo</p>"
 
 contentArea.insertAdjacentHTML("beforeend","<p>Este es otro parrafo nuevo</p>");
 
-
-
 const listArea =  document.getElementById("listArea");
 
 console.log(listArea);

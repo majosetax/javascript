@@ -26,8 +26,6 @@ setTimeout(() => {
 
 },2000);
 
-
-
 const buttonlicked = (event) => {
     console.log(event);
     console.log(event.target);
