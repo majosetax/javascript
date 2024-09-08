@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .menu{
+            background-color: blue;
+            font-size: 16px;
+        }
+
+        .main-menu{
+            background-color: green;
+        }
+
+        .visible{
+            display: block;
+        }
+
+        .invisible{
+            display: none;
+        }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="app-title">Soy el header</h1>
+      <menu class="menu">
+        <p>texto ejemplo</p>
+        <ul id="parent">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li class="menu-items">
+            <a href="#">About me</a>
+          </li>
+          <li class="menu-items">
+            <a href="#">Blogs</a>
+          </li>
+          <li class="menu-items">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <section></section>
+      </menu>
+    </header>
+    <main>
+        <button>Toggle visibility</button>
+      <section>
+        <p>
+          Texto principal
+          <span>app</span>
+        </p>
+      </section>
+      <section>
+        <p>
+          Texto principal
+          <span>app</span>
+        </p>
+      </section>
+      <section>
+        <p>Texto secundario</p>
+        <p>Texto secundario</p>
+      </section>
+
+      <section id="contentArea">
+    </section>
+        <ul id="listArea">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+        </ul>
+   
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
